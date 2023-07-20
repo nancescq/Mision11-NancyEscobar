@@ -1,0 +1,90 @@
+.textoInicial{
+    font-weight: bold;
+}
+.mainContainer{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen{
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    object-fit: contain;
+}
+
+.textoContainer{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto1{
+    margin-left: 20px;
+    font-size:50px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.texto2{
+    margin-left: 20px;
+    margin-right:350px;
+    font-size:20px;
+    text-align: justify;
+}
+
+.boton{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    font-size:10px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;  
+}
+
+.bottom{
+    /*width: 1200px;
+    height: 10px;*/
+    margin: 16px auto; 
+    text-align: center;
+    vertical-align: bottom;
+}
+
+/*MOBILE*/
+@media(max-width: 375px) {
+    .textoInicial{
+        font-size: 15px;
+    }
+    .mainContainer{
+        flex-direction:column;
+        padding: 0;
+    }
+    .imagen{
+        margin: 20px auto;
+        width: 200px;
+        height: 200px;
+        padding: 0px;
+        align-items: top;
+    }
+    .texto1{
+        margin: auto;
+        /*margin-right: 100px;*/
+        font-size:50px;
+    }
+    .texto2{
+        margin: 30px 150px 0px 0px;
+        font-size:15px;
+    }
+    .boton{
+        padding: 0px;
+        margin: 30px 150px 30px 0px;
+    }
+}
+
+
+
